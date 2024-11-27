@@ -3,13 +3,13 @@ import { getAnalytics } from 'firebase/analytics';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKZTQbmSZwP0d4lkTkT7PmpLHsXVHLMLs",
-  authDomain: "pension-path.firebaseapp.com",
-  projectId: "pension-path",
-  storageBucket: "pension-path.firebasestorage.app",
-  messagingSenderId: "1070935957532",
-  appId: "1:1070935957532:web:0b01f46ac29cfde0d83fd9",
-  measurementId: "G-LJWZTM3HB9"
+  apiKey: "AIzaSyCPuaEKa5KsqZqJc-ZZ6bEWpFdyo1mzJro",
+  authDomain: "pensionpath.firebaseapp.com",
+  projectId: "pensionpath",
+  storageBucket: "pensionpath.firebasestorage.app",
+  messagingSenderId: "944803932971",
+  appId: "1:944803932971:web:5e1a314bd43fd24afa336e",
+  measurementId: "G-GJW5HTQC3G"
 };
 
 export const app = initializeApp(firebaseConfig);
