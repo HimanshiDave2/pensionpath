@@ -27,7 +27,7 @@ export interface CalculationInput {
 }
 
 // Base URL of your Flask API
-const API_BASE_URL ='https://pensionpath-169x.onrender.com';
+const API_BASE_URL ='https://pensionpath3.onrender.com';
 
 /**
  * Function to calculate investment strategy using Flask API.
