@@ -5,7 +5,7 @@ from investment_calculator import calculate_investment_strategy
 app = Flask(__name__)
 
 # Allow only your Netlify domain to access the backend
-CORS(app, origins=["https://warm-torrone-cbcf81.netlify.app"])
+CORS(app, origins=["https://chimerical-faun-2d1d9d.netlify.app"])
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
